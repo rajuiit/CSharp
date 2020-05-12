@@ -1,0 +1,7 @@
+c:\users\mahfujur\documents\visual studio 2010\Projects\kisurSum\kisurSum\bin\Debug\kisurSum.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\kisurSum\kisurSum\bin\Debug\kisurSum.pdb
+c:\users\mahfujur\documents\visual studio 2010\Projects\kisurSum\kisurSum\obj\x86\Debug\kisurSum.Form1.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\kisurSum\kisurSum\obj\x86\Debug\kisurSum.Properties.Resources.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\kisurSum\kisurSum\obj\x86\Debug\kisurSum.csproj.GenerateResource.Cache
+c:\users\mahfujur\documents\visual studio 2010\Projects\kisurSum\kisurSum\obj\x86\Debug\kisurSum.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\kisurSum\kisurSum\obj\x86\Debug\kisurSum.pdb

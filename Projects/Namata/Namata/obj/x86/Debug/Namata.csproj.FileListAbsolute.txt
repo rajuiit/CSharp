@@ -1,0 +1,7 @@
+c:\users\mahfujur\documents\visual studio 2010\Projects\Namata\Namata\bin\Debug\Namata.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\Namata\Namata\bin\Debug\Namata.pdb
+c:\users\mahfujur\documents\visual studio 2010\Projects\Namata\Namata\obj\x86\Debug\Namata.Form1.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\Namata\Namata\obj\x86\Debug\Namata.Properties.Resources.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\Namata\Namata\obj\x86\Debug\Namata.csproj.GenerateResource.Cache
+c:\users\mahfujur\documents\visual studio 2010\Projects\Namata\Namata\obj\x86\Debug\Namata.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\Namata\Namata\obj\x86\Debug\Namata.pdb

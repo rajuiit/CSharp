@@ -1,0 +1,7 @@
+c:\users\mahfujur\documents\visual studio 2010\Projects\sazidProject\sazidProject\bin\Debug\sazidProject.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\sazidProject\sazidProject\bin\Debug\sazidProject.pdb
+c:\users\mahfujur\documents\visual studio 2010\Projects\sazidProject\sazidProject\obj\x86\Debug\sazidProject.SajidForm.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\sazidProject\sazidProject\obj\x86\Debug\sazidProject.Properties.Resources.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\sazidProject\sazidProject\obj\x86\Debug\sazidProject.csproj.GenerateResource.Cache
+c:\users\mahfujur\documents\visual studio 2010\Projects\sazidProject\sazidProject\obj\x86\Debug\sazidProject.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\sazidProject\sazidProject\obj\x86\Debug\sazidProject.pdb

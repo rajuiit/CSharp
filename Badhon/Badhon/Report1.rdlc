@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2008/01/reportdefinition">
+  <Body>
+    <ReportItems>
+      <Rectangle Name="Rectangle1">
+        <ReportItems>
+          <Image Name="Image3">
+            <Source>Embedded</Source>
+            <Value>Badhon</Value>
+            <Sizing>FitProportional</Sizing>
+            <Top>0.13903in</Top>
+            <Left>5.735in</Left>
+            <Height>0.54861in</Height>
+            <Width>0.69792in</Width>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+            </Style>
+          </Image>
+          <Textbox Name="Textbox3">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>জাহাঙ্গীরনগর বিশ্ববিদ্যালয়</Value>
+                    <Style>
+                      <FontSize>20pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
+                    <Style>
+                      <FontSize>18pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox3</rd:DefaultName>
+            <Top>0.68764in</Top>
+            <Left>4.56472in</Left>
+            <Height>0.47917in</Height>
+            <Width>3.33112in</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox4">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>JAHANGIRNAGAR UNIVERSITY</Value>
+                    <Style>
+                      <FontSize>20pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>1.16681in</Top>
+            <Left>3.93167in</Left>
+            <Height>0.33333in</Height>
+            <Width>4.51625in</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox5">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>আন্তঃ বিভাগ প্রতিযোগিতা ২০ </Value>
+                    <Style>
+                      <FontSize>16pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox5</rd:DefaultName>
+            <Top>1.52792in</Top>
+            <Left>4.56472in</Left>
+            <Height>0.35417in</Height>
+            <Width>2.81195in</Width>
+            <ZIndex>3</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB4">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>3.53778in</Top>
+            <Left>0.51624in</Left>
+            <Height>0.25in</Height>
+            <Width>4.74501in</Width>
+            <ZIndex>4</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB5">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=UCase(Parameters!dept.Value)</Value>
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.14889in</Top>
+            <Left>8.27557in</Left>
+            <Height>0.25in</Height>
+            <Width>3.80624in</Width>
+            <ZIndex>5</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox19">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>  প্রো-উপাচার্য(Pro-Vice-Chancellor)</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>                  ও</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>      সভাপতি,স্পোর্টস কমিটি </Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>      জাহাঙ্গীরনগর বিশ্ববিদ্যালয় </Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>       সাভার,ঢাকা,বাংলাদেশ</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>  (Chairman,Sports Committee)</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>       Jahangirnagar University
+                Savar,Dhaka</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>              BANGLADESH</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>6.64417in</Top>
+            <Left>0.51624in</Left>
+            <Height>1.82292in</Height>
+            <Width>2.27776in</Width>
+            <ZIndex>6</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <Top>1.50014in</Top>
+            <Left>7.44792in</Left>
+            <Height>0.35417in</Height>
+            <Width>1in</Width>
+            <ZIndex>7</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox2">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>INTER DEPARTMENT COMPETITION 20 </Value>
+                    <Style>
+                      <FontSize>16pt</FontSize>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox2</rd:DefaultName>
+            <Top>1.90986in</Top>
+            <Left>3.79626in</Left>
+            <Height>0.35417in</Height>
+            <Width>4.11347in</Width>
+            <ZIndex>8</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox20">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox20</rd:DefaultName>
+            <Top>1.90986in</Top>
+            <Left>7.93751in</Left>
+            <Height>0.35417in</Height>
+            <Width>1in</Width>
+            <ZIndex>9</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>CERTIFICATE</Value>
+                    <Style>
+                      <FontSize>20pt</FontSize>
+                      <FontWeight>Bold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>2.66334in</Top>
+            <Left>5.0532in</Left>
+            <Height>0.33333in</Height>
+            <Width>2.33917in</Width>
+            <ZIndex>10</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox21">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>        পরিচালক(Director)</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>       শারীরিক শিক্ষা বিভাগ </Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>      জাহাঙ্গীরনগর বিশ্ববিদ্যালয় </Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>       সাভার,ঢাকা,বাংলাদেশ</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>  (Department of Physical Education)</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>       Jahangirnagar University
+                Savar,Dhaka</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>              BANGLADESH</Value>
+                    <Style>
+                      <FontWeight>ExtraLight</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox4</rd:DefaultName>
+            <Top>6.64417in</Top>
+            <Left>9.59792in</Left>
+            <Height>1.82292in</Height>
+            <Width>2.29165in</Width>
+            <ZIndex>11</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line4">
+            <Top>3.80167in</Top>
+            <Left>0.51624in</Left>
+            <Height>0in</Height>
+            <Width>4.74501in</Width>
+            <ZIndex>12</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>হলের</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                      <FontFamily>Kalpurush</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox7</rd:DefaultName>
+            <Top>3.53778in</Top>
+            <Left>5.33069in</Left>
+            <Height>0.26389in</Height>
+            <Width>0.43167in</Width>
+            <ZIndex>13</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB6">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=UCase(Parameters!dept.Value)</Value>
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                  <TextRun>
+                    <Value xml:space="preserve"> </Value>
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.13847in</Top>
+            <Left>0.51624in</Left>
+            <Height>0.25in</Height>
+            <Width>4.46376in</Width>
+            <ZIndex>14</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line6">
+            <Top>4.39889in</Top>
+            <Left>0.51624in</Left>
+            <Height>0in</Height>
+            <Width>4.46377in</Width>
+            <ZIndex>15</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox28">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>বিভাগের</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox28</rd:DefaultName>
+            <Top>4.13847in</Top>
+            <Left>5.19986in</Left>
+            <Height>0.26042in</Height>
+            <Width>0.5625in</Width>
+            <ZIndex>16</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB7">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.6107in</Top>
+            <Left>1.77666in</Left>
+            <Height>0.25in</Height>
+            <Width>3.64084in</Width>
+            <ZIndex>17</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line7">
+            <Top>4.8607in</Top>
+            <Left>1.77666in</Left>
+            <Height>0in</Height>
+            <Width>3.64084in</Width>
+            <ZIndex>18</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox14">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>কে</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                      <FontFamily>Kalpurush</FontFamily>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox7</rd:DefaultName>
+            <Top>4.6107in</Top>
+            <Left>5.48694in</Left>
+            <Height>0.25in</Height>
+            <Width>0.31708in</Width>
+            <ZIndex>19</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox29">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>স্নাতক/স্নাতকোত্তর</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox28</rd:DefaultName>
+            <Top>4.61417in</Top>
+            <Left>0.51624in</Left>
+            <Height>0.26042in</Height>
+            <Width>1.11458in</Width>
+            <ZIndex>20</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB8">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>5.11069in</Top>
+            <Left>0.51624in</Left>
+            <Height>0.25in</Height>
+            <Width>2.11457in</Width>
+            <ZIndex>21</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line8">
+            <Top>5.36069in</Top>
+            <Left>0.52279in</Left>
+            <Height>0in</Height>
+            <Width>2.10801in</Width>
+            <ZIndex>22</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox30">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>প্রতিযোগিতায় </Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox28</rd:DefaultName>
+            <Top>5.11069in</Top>
+            <Left>2.70025in</Left>
+            <Height>0.26042in</Height>
+            <Width>0.84375in</Width>
+            <ZIndex>23</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox34">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>হওয়ার জন্য </Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox34</rd:DefaultName>
+            <Top>5.12111in</Top>
+            <Left>5.0532in</Left>
+            <Height>0.25in</Height>
+            <Width>0.75083in</Width>
+            <ZIndex>24</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB9">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>5.12111in</Top>
+            <Left>3.59955in</Left>
+            <Height>0.25in</Height>
+            <Width>1.38044in</Width>
+            <ZIndex>25</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line9">
+            <Top>5.37111in</Top>
+            <Left>3.59955in</Left>
+            <Height>0in</Height>
+            <Width>1.38045in</Width>
+            <ZIndex>26</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox31">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>এই সনদ প্রদান করা হলো ।</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox28</rd:DefaultName>
+            <Top>5.57771in</Top>
+            <Left>0.51624in</Left>
+            <Height>0.26042in</Height>
+            <Width>1.70833in</Width>
+            <ZIndex>27</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB10">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=UCase(Parameters!name.Value)</Value>
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>3.53778in</Top>
+            <Left>6.54084in</Left>
+            <Height>0.25in</Height>
+            <Width>4.22291in</Width>
+            <ZIndex>28</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line10">
+            <Top>3.78778in</Top>
+            <Left>6.54084in</Left>
+            <Height>0in</Height>
+            <Width>4.22291in</Width>
+            <ZIndex>29</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox38">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>BA(Hons)/Masters</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox38</rd:DefaultName>
+            <Top>3.53778in</Top>
+            <Left>10.8839in</Left>
+            <Height>0.25in</Height>
+            <Width>1.19791in</Width>
+            <ZIndex>30</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox39">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>student of the Department </Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox38</rd:DefaultName>
+            <Top>4.14889in</Top>
+            <Left>6.54084in</Left>
+            <Height>0.25in</Height>
+            <Width>1.67792in</Width>
+            <ZIndex>31</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line5">
+            <Top>4.41278in</Top>
+            <Left>8.27557in</Left>
+            <Height>0in</Height>
+            <Width>3.80624in</Width>
+            <ZIndex>32</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox40">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>and resident of</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox38</rd:DefaultName>
+            <Top>4.6107in</Top>
+            <Left>6.54084in</Left>
+            <Height>0.25in</Height>
+            <Width>1.03209in</Width>
+            <ZIndex>33</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB11">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>=UCase(Parameters!hall.Value)</Value>
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>4.6107in</Top>
+            <Left>7.64237in</Left>
+            <Height>0.25in</Height>
+            <Width>3.99374in</Width>
+            <ZIndex>34</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox42">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Hall</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox42</rd:DefaultName>
+            <Top>4.6107in</Top>
+            <Left>11.76805in</Left>
+            <Height>0.23611in</Height>
+            <Width>0.31376in</Width>
+            <ZIndex>35</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox41">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>has secured the</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox38</rd:DefaultName>
+            <Top>5.11069in</Top>
+            <Left>6.54084in</Left>
+            <Height>0.25in</Height>
+            <Width>1.03209in</Width>
+            <ZIndex>36</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB12">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>5.12111in</Top>
+            <Left>7.62849in</Left>
+            <Height>0.25in</Height>
+            <Width>1.89999in</Width>
+            <ZIndex>37</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Line Name="Line11">
+            <Top>4.8607in</Top>
+            <Left>7.64237in</Left>
+            <Height>0in</Height>
+            <Width>3.99374in</Width>
+            <ZIndex>38</ZIndex>
+            <Style>
+              <Border>
+                <Style>Dashed</Style>
+              </Border>
+            </Style>
+          </Line>
+          <Textbox Name="Textbox43">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>place in the</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox38</rd:DefaultName>
+            <Top>5.12458in</Top>
+            <Left>9.59792in</Left>
+            <Height>0.25in</Height>
+            <Width>0.79251in</Width>
+            <ZIndex>39</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="nameTB13">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value />
+                    <Style>
+                      <FontFamily>Lucida Bright</FontFamily>
+                      <FontWeight>SemiBold</FontWeight>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style>
+                  <TextAlign>Center</TextAlign>
+                </Style>
+              </Paragraph>
+            </Paragraphs>
+            <Top>5.12458in</Top>
+            <Left>10.45987in</Left>
+            <Height>0.25in</Height>
+            <Width>1.62194in</Width>
+            <ZIndex>40</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+          <Textbox Name="Textbox44">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Competition</Value>
+                    <Style>
+                      <FontStyle>Italic</FontStyle>
+                    </Style>
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox38</rd:DefaultName>
+            <Top>5.58813in</Top>
+            <Left>6.54084in</Left>
+            <Height>0.25in</Height>
+            <Width>0.85153in</Width>
+            <ZIndex>41</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
+        </ReportItems>
+        <KeepTogether>true</KeepTogether>
+        <Top>0.02431in</Top>
+        <Height>8.59292in</Height>
+        <Width>12.69166in</Width>
+        <Style>
+          <Border>
+            <Color>Red</Color>
+            <Style>Solid</Style>
+            <Width>3pt</Width>
+          </Border>
+        </Style>
+      </Rectangle>
+      <Line Name="Line12">
+        <Top>5.39889in</Top>
+        <Left>7.62849in</Left>
+        <Height>0in</Height>
+        <Width>1.89999in</Width>
+        <ZIndex>1</ZIndex>
+        <Style>
+          <Border>
+            <Style>Dashed</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Line Name="Line13">
+        <Top>5.41278in</Top>
+        <Left>10.45987in</Left>
+        <Height>0in</Height>
+        <Width>1.62194in</Width>
+        <ZIndex>2</ZIndex>
+        <Style>
+          <Border>
+            <Style>Dashed</Style>
+          </Border>
+        </Style>
+      </Line>
+      <Textbox Name="Textbox6">
+        <CanGrow>true</CanGrow>
+        <KeepTogether>true</KeepTogether>
+        <Paragraphs>
+          <Paragraph>
+            <TextRuns>
+              <TextRun>
+                <Value>সনদ </Value>
+                <Style>
+                  <FontSize>18pt</FontSize>
+                  <FontWeight>Bold</FontWeight>
+                </Style>
+              </TextRun>
+            </TextRuns>
+            <Style>
+              <TextAlign>Center</TextAlign>
+            </Style>
+          </Paragraph>
+        </Paragraphs>
+        <rd:DefaultName>Textbox3</rd:DefaultName>
+        <Top>2.23973in</Top>
+        <Left>5.735in</Left>
+        <Height>0.37848in</Height>
+        <Width>1in</Width>
+        <ZIndex>3</ZIndex>
+        <Style>
+          <Border>
+            <Style>None</Style>
+          </Border>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+      </Textbox>
+    </ReportItems>
+    <Height>8.61723in</Height>
+    <Style>
+      <Border>
+        <Style>None</Style>
+        <Width>2pt</Width>
+      </Border>
+    </Style>
+  </Body>
+  <ReportParameters>
+    <ReportParameter Name="name">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="father">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="mother">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="dept">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="hall">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="blood">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="serial">
+      <DataType>String</DataType>
+      <Prompt>ReportParameter1</Prompt>
+    </ReportParameter>
+  </ReportParameters>
+  <Width>12.69166in</Width>
+  <Page>
+    <PageHeight>8.27in</PageHeight>
+    <PageWidth>11.69in</PageWidth>
+    <LeftMargin>1in</LeftMargin>
+    <RightMargin>1in</RightMargin>
+    <TopMargin>1in</TopMargin>
+    <BottomMargin>1in</BottomMargin>
+    <Style />
+  </Page>
+  <EmbeddedImages>
+    <EmbeddedImage Name="ek">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAALoAAAA2CAYAAABwfINSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATGSURBVHhe7ZoLkqMwDERzLg7EeTgNl+EwLP4AshC2SMiGqe6tmqqdJMZu9bMkO/Oa+Y8RAIjAC0AjJTICM0EnBBARIOgQNlMkQScDEBEg6BA2UyRBJwMQESDoEDZTJEEnAxARIOgQNlMkQScDEBEg6BA2UyRBJwMQESDoEDZTJEEnAxARIOgQNlMkQScDEBEg6BA2UyRBJwPuCExDN79er/KnG+bJ/YTffZCg/y72f2rmsV8AN6Be4e+GZ+NO0P8Ubr9a7DQPncrk/SgWM879kumLl3611JN5CfrDDPkzyxn71MKsdE/D3L36WeL/JC3fBT2KF8F4knKu5YYIhEy+wx3am6dm9a+BHnu6VzeH1i38vxuGWN4Oh5l3Xuu6tIFqP7qfXDdda9w772t3vznXO+s7G2MdJB+39nuqxFdA1weXeGA5bPXU11kHnC3VhPJ4MUWkTXXtYPTOmBvSYXqEqdERmzhUZ9DUS7f0X9IrwG9ZEXy+a+67q8M9oE/TfsVk9GpH0JORp0GxskorymvPWHuupvNkzDiunWYGTmTElpH7FOqAJuZaK50NeiM28gioQQ9z1K77vDEK8Y/PSRsnhj6PrdlQBd07d9b3SNBlhrDEatDtDL8HczNLZLt0jWWUMXUocmWr2pj4Xprn+Kzck+qD2El6l+ML48QcOqM3YxM33d4SSvCaY/OHmzHaQC978NlIQHr+QyLw+GMkgQeCHnZ9CnyuxaklEREoDdCfD6Py9ZXORqqslwblMSrF1E30jUlBttaZ4F83oguYuGmW3Ki6qc3IQqM9ZwJMbPL4+9ImrNl2C71u9Xx6j/s0A67mHXvh80nl3kF3zu3V9mGveEPrcmKOWFgBunkNNS0AiW/dVnh1/yp/
+nxYzxN3uPqTWEjnHrPPoViADtm3qLfOduxA3hlHvt01SaLKv6MzsZrUSej3vxChK2T09fhuaYLeqR1HNnXO7tf0edKvEl6s6gF792lgcxCRw/XB+0BLlsZllZfbLlcduUWSVyplctA0hRY/mIftwEDDOI2vvv2RpDboRG1uT6J+3KVWrIZdyMUZnbdC6FmtNpz16ZW6/ts9IvyGjx6uDytVhN/chW8svFhx/H5GuJ1M2DIfD5ole9I/uA2NlTDR6W6doPTKY+mapbsMxPiEcUmNKpOshUD1N9vTiLfvWpdygxZMuxcjaSPtrViauenQ2t1vbI0CvLOJwcGu3Oulpdo9XlZuD6QZ9hcu8qXH2mB/FP2+ArbXxxiZNehn0ql5LiKiu6su/y6BfnPuBh9G207pPLbNlY5M0rhW3HjJnX0/r4h9j/I2Hoxq1I1Kk5ePB3TnHEQa7dfHrtVeexpeV4ux2rZVkPP7Ym/hSVA8fvql1qS/C6ve2si37Xv0YfRg1k064DtxNcAUyVpmLYz6L8/loQ6MrNjqj58ppgvYNvc1bF1uyyx+zWn1mwH8B/bMlcnQzAvp2qDkA7wMEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMUEHdJ2PNEEHc9zSMX/AI3kgQ9SPjfBAAAAAElFTkSuQmCC</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="rokto">
+      <MIMEType>image/png</MIMEType>
+      <ImageData>iVBORw0KGgoAAAANSUhEUgAAAK0AAAAuCAYAAABai5k1AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATQSURBVHhe7ZoLkqQwCIY9lwfyPJ7Gy3gYJ28JkoS0Pa2hmK2p2t0xBvg/CKRnOvRLIzBYBKbB7FVzNQKHQqsQDBcBhXY4ydRghVYZGC4CCu1wkqnBCq0yMFwEFNrhJFODFVplYLgIKLTDSaYGK7TKwHAReAe0+3os6z5c8NTgZyLwDmi35Zjm9VBsn4Ggvet2LNNybObPMk3Hsu3HOtt/P/P1DmhNpZ2Xp0LwTOBH23VbLKzBaqvXNB9PHY7vgNbEYl/nYzJZTH0rz29A3FdZr89zwNpIvAbaoiwuq//vKLLJMj9VMpDTd225u56bGr/ap2TP+6F1fZRCywHqVzD9ap/vQOuqHn2El4727/4/41jqstG8r9KWNG2n+pau/WEsl3u2mMTu8gUPvmy7831cCMDavO/tYYVfmL5WaW2j/rVjNgaht5m1txBuuoU5aifdQi8W9mnabd/bawunNML3NmyJPT80I6t4TF8+0SlbQ+yT7Nj3YzPf7ss+x7gRygY8Tsy+0tMGUCwsUPxti+TABt7DU4PEi+MrKvx72x+7D67E8YoGTr051NWjjqo+LHjpfS9DDEoGaIvzPYqergRDAgYbsO1VXwo6VeNaWHPZxz0XYw/0fh200aEQwCwb3c98ub9mduhR0fqUnQg8Jx4DFLKCUBUSVQBS6GgbhAaAEn2rCQ7tvlaqcBRWoDUpa06IAEL23Nnjs6Ct6VRyoLGGTo54ogXfqEoLkiBC/qNKm2d79BtD440BgQcBsj+LVaR5XLE+eKCqrN0QVbx4bIHBLhcg+IYrBIKraXPah+7B0/oqtC7jz4Q1x64/eE9f69DydMq55a25QluIM4wjvgUKd72zad0YNSkzs7+n3Y2BqUc8N7wIGQOO
+ocMX043ehw8Ir5HH78PQbgu4L47RxBWb2eO65CQUSXu2oHXVFrVTIJ5VaLk6Ze0/T9t837MdyNo+pCtZUckZpN0I9kML3wmOEboNyCuNExFeTtvGPR7/pemV0ReVmn7yAwsEUbkPDGLY/WECLusVpGKc/TvyHj6KbJKsCa0r2WCQzC/2We2BK85+QLUJxCoCjTXVliq2dwS011nG+/b/lRYLBGDDRmXDhAl+HCzjsQfbhPTa9D7G9VZaVLvLPUWnb6jqHy6kRLOCm+Gy/44SQ+chTgkFjOK8G1YsNrSpXWkPwpm8BW1rdka/lhXdHoA5J697T0ALAlLKJHxEsrK989qr/U5QOUHU2qDQfV77EGs9cX0vZ/qfzXDmqqY5AewpBWPe9IV5LUaB27UPHmQrofjRIOYtSJUiHN9laK6Vpuc3ushqTAUhCBIL124ynfoVHG/3WcWbQsejsvcMazFLvJcD7dlmX6smtZ6vU9ng+hxQWMcaoP3tUm9oP+9ps7s56mqLoxrvGR94xqCF+uLifTAYAIaBNoRqTz3WNeblXvNM0vaJdNXkI2hf/eECj7v7TzEzl73RP/8iDtuOGw+yEu7G+9+69PNK+1aP1C7xEVBoxUssz0GFVp6m4j1SaMVLLM9BhVaepuI9UmjFSyzPQYVWnqbiPVJoxUssz0GFVp6m4j1SaMVLLM9BhVaepuI9UmjFSyzPQYVWnqbiPVJoxUssz0GFVp6m4j1SaMVLLM9BhVaepuI9+gMIbwcbIHDv/wAAAABJRU5ErkJggg==</ImageData>
+    </EmbeddedImage>
+    <EmbeddedImage Name="Badhon">
+      <MIMEType>image/gif</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <rd:ReportID>831c758d-dd8c-413d-8f4c-d9e727cc14da</rd:ReportID>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+</Report>

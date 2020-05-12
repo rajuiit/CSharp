@@ -1,0 +1,9 @@
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\obj\x86\Debug\DemoAddDeleteUpdate.addStudentForm.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\obj\x86\Debug\DemoAddDeleteUpdate.Form1.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\obj\x86\Debug\DemoAddDeleteUpdate.Properties.Resources.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\obj\x86\Debug\DemoAddDeleteUpdate.csproj.GenerateResource.Cache
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\bin\Debug\DemoAddDeleteUpdate.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\bin\Debug\DemoAddDeleteUpdate.pdb
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\obj\x86\Debug\DemoAddDeleteUpdate.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\obj\x86\Debug\DemoAddDeleteUpdate.pdb
+C:\Users\Mahfujur\Documents\Visual Studio 2010\Projects\DemoAddDeleteUpdate\DemoAddDeleteUpdate\obj\x86\Debug\DemoAddDeleteUpdate.csprojResolveAssemblyReference.cache

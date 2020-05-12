@@ -1,0 +1,9 @@
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\bin\Debug\school.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\bin\Debug\school.pdb
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\bin\Debug\school.xml
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\obj\x86\Debug\school.Form1.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\obj\x86\Debug\school.Resources.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\obj\x86\Debug\school.vbproj.GenerateResource.Cache
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\obj\x86\Debug\school.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\obj\x86\Debug\school.xml
+c:\users\mahfujur\documents\visual studio 2010\Projects\school\school\obj\x86\Debug\school.pdb

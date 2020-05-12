@@ -1,0 +1,7 @@
+c:\users\mahfujur\documents\visual studio 2010\Projects\StudentInfo\StudentInfo\bin\Debug\StudentInfo.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\StudentInfo\StudentInfo\bin\Debug\StudentInfo.pdb
+c:\users\mahfujur\documents\visual studio 2010\Projects\StudentInfo\StudentInfo\obj\x86\Debug\StudentInfo.Form1.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\StudentInfo\StudentInfo\obj\x86\Debug\StudentInfo.Properties.Resources.resources
+c:\users\mahfujur\documents\visual studio 2010\Projects\StudentInfo\StudentInfo\obj\x86\Debug\StudentInfo.csproj.GenerateResource.Cache
+c:\users\mahfujur\documents\visual studio 2010\Projects\StudentInfo\StudentInfo\obj\x86\Debug\StudentInfo.exe
+c:\users\mahfujur\documents\visual studio 2010\Projects\StudentInfo\StudentInfo\obj\x86\Debug\StudentInfo.pdb
